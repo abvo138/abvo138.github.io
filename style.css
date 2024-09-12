@@ -1,0 +1,71 @@
+/* Reset basic margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #F2F3F4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header style */
+header {
+    background-color: #72A0C1;
+    color: #F2F3F4;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #FF91AF;
+}
+
+/* Main content styling */
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    margin-bottom: 40px; /* Adds space below each section */
+    padding: 20px;       /* Adds space inside each section */
+    border: 1px solid #ddd; /* Optional: adds a border to visually separate sections */
+
+
+    h1, h2, h3 {
+        margin: 10px 0; /* Adds 20px space above and below each heading */
+    }
+
+    h1 {margin-bottom: 5px; /* Adds extra space below h1 */}
+
+    h2 {margin-bottom: 5px; /* Adds space below h2 */}
+
+    h3 {margin-bottom: 5px; /* Adds space below h3 */}
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #72A0C1;
+    color: #F2F3F4;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
